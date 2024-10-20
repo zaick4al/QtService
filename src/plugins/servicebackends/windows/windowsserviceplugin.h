@@ -1,7 +1,7 @@
 #ifndef WINDOWSSERVICEPLUGIN_H
 #define WINDOWSSERVICEPLUGIN_H
 
-#include <QtService/ServicePlugin>
+#include "serviceplugin.h"
 
 class WindowsServicePlugin : public QObject, public QtService::ServicePlugin
 {

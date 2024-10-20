@@ -4,7 +4,7 @@
 #include <QtCore/QPointer>
 #include <QtCore/QLoggingCategory>
 
-#include <QtService/ServiceBackend>
+#include <servicebackend.h>
 
 class StandardServiceBackend : public QtService::ServiceBackend
 {

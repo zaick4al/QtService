@@ -1,17 +1,17 @@
 #ifndef WINDOWSSERVICEBACKEND_H
 #define WINDOWSSERVICEBACKEND_H
 
-#include <QtCore/QMutex>
-#include <QtCore/QWaitCondition>
-#include <QtCore/QThread>
-#include <QtCore/QPointer>
-#include <QtCore/QAbstractNativeEventFilter>
-#include <QtCore/QTimer>
-#include <QtCore/QLoggingCategory>
+#include <QMutex>
+#include <QWaitCondition>
+#include <QThread>
+#include <QPointer>
+#include <QAbstractNativeEventFilter>
+#include <QTimer>
+#include <QLoggingCategory>
 
-#include <QtService/ServiceBackend>
+#include "servicebackend.h"
 
-#include <QtCore/qt_windows.h>
+#include <qt_windows.h>
 
 class WindowsServiceBackend : public QtService::ServiceBackend
 {

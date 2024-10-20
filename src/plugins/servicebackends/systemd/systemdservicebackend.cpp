@@ -11,7 +11,6 @@
 #include <systemd/sd-journal.h>
 #include <systemd/sd-daemon.h>
 
-#include "systemd_interface.h"
 using namespace QtService;
 
 Q_LOGGING_CATEGORY(logBackend, "qt.service.plugin.systemd.backend")

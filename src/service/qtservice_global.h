@@ -4,7 +4,7 @@
 #include <QtCore/qglobal.h>
 
 #ifndef QT_STATIC
-#  if defined(QT_BUILD_SERVICE_LIB)
+#  ifdef QT_BUILD_SERVICE_LIB
 #    define Q_SERVICE_EXPORT Q_DECL_EXPORT
 #  else
 #    define Q_SERVICE_EXPORT Q_DECL_IMPORT

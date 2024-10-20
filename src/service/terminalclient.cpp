@@ -4,8 +4,8 @@
 #include "service_p.h"
 #include "servicecontrol.h"
 #include <iostream>
-#include <QtCore/QThread>
-#include <QtCore/QCoreApplication>
+#include <QThread>
+#include <QCoreApplication>
 #include "qconsole.h"
 #include "QCtrlSignals"
 using namespace QtService;

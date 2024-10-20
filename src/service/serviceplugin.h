@@ -3,7 +3,7 @@
 
 #include <QtCore/qobject.h>
 
-#include "QtService/qtservice_global.h"
+#include "qtservice_global.h"
 
 namespace QtService {
 

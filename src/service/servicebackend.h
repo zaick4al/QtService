@@ -6,8 +6,8 @@
 #include <QtCore/qscopedpointer.h>
 #include <QtCore/qhash.h>
 
-#include "QtService/qtservice_global.h"
-#include "QtService/service.h"
+#include "qtservice_global.h"
+#include "service.h"
 
 namespace QtService {
 

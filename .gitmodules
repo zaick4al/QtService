@@ -1,0 +1,6 @@
+[submodule "libs/QCtrlSignals"]
+	path = libs/QCtrlSignals
+	url = https://github.com/Skycoder42/QCtrlSignals
+[submodule "libs/QConsole"]
+	path = libs/QConsole
+	url = https://github.com/Skycoder42/QConsole.git

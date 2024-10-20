@@ -3,16 +3,16 @@
 
 #include <functional>
 
-#include <QtCore/qobject.h>
-#include <QtCore/qcoreapplication.h>
-#include <QtCore/qdir.h>
-#include <QtCore/qscopedpointer.h>
-#include <QtCore/qvector.h>
-#include <QtCore/qhash.h>
-#include <QtCore/qvariant.h>
+#include <qobject.h>
+#include <qcoreapplication.h>
+#include <qdir.h>
+#include <qscopedpointer.h>
+#include <qvector.h>
+#include <qhash.h>
+#include <qvariant.h>
 
-#include "QtService/qtservice_global.h"
-#include "QtService/qtservice_helpertypes.h"
+#include "qtservice_global.h"
+#include "qtservice_helpertypes.h"
 
 //! The primary namespace of the QtService library
 namespace QtService {

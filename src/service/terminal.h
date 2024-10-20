@@ -4,8 +4,8 @@
 #include <QtCore/qiodevice.h>
 #include <QtCore/qscopedpointer.h>
 
-#include "QtService/qtservice_global.h"
-#include "QtService/service.h"
+#include "qtservice_global.h"
+#include "service.h"
 
 namespace QtService {
 
@@ -25,7 +25,7 @@ class Q_SERVICE_EXPORT Terminal : public QIODevice
 
 public:
 	//! A helper class to be used with [QtCoroutines](https://github.com/Skycoder42/QtCoroutines) to await io from a coroutine
-	class Q_SERVICE_EXPORT Awaitable
+    class Q_SERVICE_EXPORT Awaitable
 	{
 	public:
 		//! Special read modes

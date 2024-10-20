@@ -4,7 +4,7 @@
 #include <QtCore/QLockFile>
 #include <QtCore/QLoggingCategory>
 
-#include <QtService/ServiceControl>
+#include <servicecontrol.h>
 
 class StandardServiceControl : public QtService::ServiceControl
 {

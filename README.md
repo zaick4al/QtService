@@ -36,6 +36,9 @@ A platform independent library to easily create system services and use some of 
 
 Details on what exactly is supported by each backend can be found in the doxygen documentation under the "Related Pages" tab.
 
+##README
+- To make this library work in static build, you need to add target_compile_definitions(Qt6Service PUBLIC QT_STATIC=1) after target_link_libraries with Qt6Service library
+
 ## Download/Installation
 1. Package Managers: The library is available via:
 	- **Arch-Linux:** AUR-Repository: [`qt5-service`](https://aur.archlinux.org/packages/qt5-service/)

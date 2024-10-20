@@ -3,7 +3,7 @@
 
 #include <QtCore/QLoggingCategory>
 
-#include <QtService/ServiceControl>
+#include <servicecontrol.h>
 
 class SystemdServiceControl : public QtService::ServiceControl
 {

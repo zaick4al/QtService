@@ -1,7 +1,7 @@
 #ifndef STANDARDSERVICEPLUGIN_H
 #define STANDARDSERVICEPLUGIN_H
 
-#include <QtService/ServicePlugin>
+#include "serviceplugin.h"
 
 class StandardServicePlugin : public QObject, public QtService::ServicePlugin
 {

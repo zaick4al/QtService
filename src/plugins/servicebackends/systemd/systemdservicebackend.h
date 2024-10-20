@@ -6,9 +6,10 @@
 
 #include <QtDBus/QDBusConnection>
 
-#include <QtService/ServiceBackend>
+#include <servicebackend.h>
 
-#include "systemd_adaptor.h"
+#include "systemd_interface.h"
+#include "SystemdAdaptor.h"
 
 class SystemdServiceBackend : public QtService::ServiceBackend
 {
@@ -40,7 +41,7 @@ private:
 	QTimer *_watchdogTimer = nullptr;
 	QMultiHash<QByteArray, int> _sockets;
 
-	SystemdAdaptor *_dbusAdapter;
+    SystemdAdaptor *_dbusAdapter;
 
 	int run();
 	int stop();

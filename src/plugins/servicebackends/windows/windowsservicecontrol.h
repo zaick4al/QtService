@@ -1,11 +1,11 @@
 #ifndef WINDOWSSERVICECONTROL_H
 #define WINDOWSSERVICECONTROL_H
 
-#include <QtCore/QLoggingCategory>
+#include <QLoggingCategory>
 
-#include <QtService/ServiceControl>
+#include <servicecontrol.h>
 
-#include <QtCore/qt_windows.h>
+#include <qt_windows.h>
 
 class WindowsServiceControl : public QtService::ServiceControl
 {

@@ -1,7 +1,7 @@
 #ifndef SYSTEMDSERVICEPLUGIN_H
 #define SYSTEMDSERVICEPLUGIN_H
 
-#include <QtService/ServicePlugin>
+#include <serviceplugin.h>
 
 class SystemdServicePlugin : public QObject, public QtService::ServicePlugin
 {
